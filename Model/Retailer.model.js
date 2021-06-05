@@ -8,9 +8,7 @@ const retailerSchema = new mongoose.Schema({
     RetailerCity: String,
     RetailerDate: Date,
     RetailerArea: String,
-    RetailerProduct: Object,
-    RetailerOrder:Object,
-    RetailerPayment:Object 
+    RetailerPayment:Object, 
 });
 
 module.exports = mongoose.model('retailer',retailerSchema);
